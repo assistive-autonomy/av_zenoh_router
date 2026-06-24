@@ -1,4 +1,4 @@
-FROM ros:humble-ros-base-jammy AS base
+FROM ros:jazzy-ros-base-noble AS base
 
 # Install basic dev tools (And clean apt cache afterwards)
 RUN apt-get update \
